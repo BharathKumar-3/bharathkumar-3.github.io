@@ -18,20 +18,20 @@
                 <p class="headerTitle">Bharath Kumar S P</p>
             </div>
             <div class="links">
-                <a href="./index.html">Home</a>
-                <a href="#About-me">About</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+                <a href="#home-id">Home</a>
+                <a href="#About-me-id">About</a>
+                <a href="#project-id">Projects</a>
+                <a href="#contact-id">Contact</a>
             </div>
         </div>
     </div>
-    <div class="Home">
+    <div id="home-id" class="Home">
         <div class="Profiles">
-            <a href=""> <img class="icons" src="icons\linkedin.png" alt="LinkedIn"></a>
-            <a href=""><img class="icons" src="icons\github.png" alt="Github"></a>
-            <a href=""><img class="icons" src="icons\leetcode.png" alt="Leetcode"></a>
-            <a href=""><img class="icons" src="icons\hacker-rank.png" alt="Hacker-rank"></a>
-            <a href=""><img class="icons" src="icons\codechef.png" alt="Codechef"></a>
+            <a class="profile-icon" href=""> <img class="icons" src="icons\linkedin.png" alt="LinkedIn"></a>
+            <a class="profile-icon" href=""><img class="icons" src="icons\github.png" alt="Github"></a>
+            <a class="profile-icon" href=""><img class="icons" src="icons\leetcode.png" alt="Leetcode"></a>
+            <a class="profile-icon" href=""><img class="icons" src="icons\hacker-rank.png" alt="Hacker-rank"></a>
+            <a class="profile-icon" href=""><img class="icons" src="icons\codechef.png" alt="Codechef"></a>
         </div>
         <div class="intro-Block">
             <p class="intro">Hey, <br>I'm Bharath Kumar</p>
@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-    <div identifier="About-me" class="About-me">
+    <div id="About-me-id" class="About-me">
         <div class="title">
             <h1>About me</h1>
             <hr>
@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <div class="Projects">
+    <div id="project-id" class="Projects">
         <div class="intro-block-project">
             <h1>PROJECTS</h1>
             <hr>
@@ -130,14 +130,33 @@
             </div>
         </div>
     </div>
-    <div class ="Contact-form">
+    <div id="contact-id" class ="Contact-form">
         <div class="contact-intro">
             <h1>Contact</h1>
             <hr>
             <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
         </div>
-        <div>
-            
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <label class="label-name" for="">Name <br>
+                        <input class="Name-box" type="text"  value="Enter Your Name">
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label class="label-name" for="">Email <br>
+                        <input class="Name-box" type="text"  value="Enter Your EmailId">
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label class="label-name" for="">Message <br>
+                        <textarea class="message-box" name="" id="" cols="30" rows="10" >Enter Your Message Here</textarea>
+                    </label>
+                </div>
+            </form>
+            <div class="button-container">
+                <a class="button" href="">Submit</a>
+            </div>
         </div>
     </div>
     <div class="footer">

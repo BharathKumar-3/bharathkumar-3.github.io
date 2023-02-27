@@ -57,3 +57,6 @@ p{
     border-radius: 5px;
     color:#04ade1
 }
+.skill-item :hover{
+    transform: scale(1.5);
+}
