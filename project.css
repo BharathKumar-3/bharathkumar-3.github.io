@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.intro-block-project{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.intro-block-project h1{
+    margin-bottom: 0px;
+}
+.intro-block-project hr{
+    margin-top: 0.25rem;
+    border: 5px solid ;
+    border-color: #04ade1;
+    border-radius: 5px;
+    width: 5vw;
+}
+.project-div{
+    display: flex;
+    flex-direction: column;
+}
+.project-top{
+    display: flex;
+    gap:5vw;
+    padding-left: 15vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    justify-content: center;
+}
+.project-image{
+    height : 30vh;
+    width: 30vw;
+    border: 0px solid ;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.project-desc p{
+    font-family : Montserrat;
+    line-height: 1.7;
+    text-indent: 10rem;
+    width: 50vw;
+}
+.project-desc h2{
+    font-family: Roboto;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 5px;
+}
+.button{
+    color: #04ade1;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: large;
+}
+.project-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5vw;
+    margin-right: 5vw;
+}
+.project-container{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}

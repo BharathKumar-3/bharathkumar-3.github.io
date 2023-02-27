@@ -1,0 +1,22 @@
+.contact-form{
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.contact-intro{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.contact-intro h1{
+    margin-bottom: 0px;
+}
+.contact-intro hr{
+    margin-top: 0.25rem;
+    border: 5px solid ;
+    border-color: #04ade1;
+    border-radius: 5px;
+    width: 5vw;
+}
