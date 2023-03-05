@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p{
+    font-family: Montserrat;
+}
+.About-me{
+    padding-top: 8vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+    text-align: center;
+    width: 50vw;
+}
+.title h1{
+    margin-bottom: 0px;
+}
+.title hr{
+    margin-top: 0.25rem;
+    border: 5px solid #04ade1;
+    border-radius: 5px;
+    width: 5vw;
+}
+.about-me-innerblock{
+    padding-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap:5rem;
+}
+.details{
+    padding-left: 5rem;
+    width: 50vw;
+}
+
+.skill-column{
+    padding-right: 5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 40vw;
+}
+.skill-item{
+    text-align: center;
+    width: 7rem;
+    height: fit-content;
+    height: 3rem;
+    background-color:  #04ade1;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #222222
+}
+.skill-item :hover{
+    transform: scale(1.5);
+}
