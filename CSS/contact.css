@@ -52,7 +52,18 @@
     height: 5vh;
     width: 50vw;
 }
-
+.contact-button{
+    background-color: #222222;
+    color: #04ade1;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 6rem;
+    cursor: pointer;
+}
+.contact-button:active{
+    color: aqua;
+    cursor: pointer;
+}
 .input-box{
     padding-top: 2vh;
     padding-bottom: 2vh;
