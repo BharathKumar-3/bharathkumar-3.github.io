@@ -10,7 +10,7 @@ submit_button.addEventListener("click",(event)=>{
     console.log(name.value," ",email.value," ",message.value)
 })
 async function add_value(data){
-    const response = await fetch("http://localhost:8080/",{
+    const response = await fetch("https://emailsender-sf42.onrender.com/",{
         method :"POST",
         mode : "cors",
         headers:{"Content-Type": "application/json"},
